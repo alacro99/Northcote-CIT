@@ -1,12 +1,10 @@
 #include <Servo.h>
-#include <Servo.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <LiquidCrystal.h>
 #include <EEPROM.h>
 
 const int buttonPin = 9; // the number of the pushbutton pin
-const float RT = 10000;// the rated potentiometer value 10k
 const int potPin = A0; // potentiometer is connected to analog 0 pin
 const int sensor_pin = 4;
 const int tap_servo_pin = 5;
