@@ -62,6 +62,7 @@ void updateCandies(int count)
   lcd.clear();
   lcd.setCursor(0,0);
   lcd.print(" Fill more!" );
+
   delay(900);
 }
 
@@ -91,7 +92,6 @@ void loop()
   {
      tap_servo.write(180); // Set servo arm to 180 degrees
      updateCandies(-1);
-     delay(900);
      return;
   }
 
